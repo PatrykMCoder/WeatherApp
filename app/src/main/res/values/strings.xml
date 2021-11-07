@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="appID">8499cfb9ca62534b8e044057cd819b82</string>
+    <string name="_12">12*</string>
+    <string name="city">New York</string>
+    <string name="image_menu_description">Menu Button</string>
+    <string name="image_settings_description">Settings Button</string>
+    <string name="background_image">Background image</string>
+    <string name="today">Today</string>
+    <string name="thu_7_oct">Thu 7 Oct</string>
+    <string name="_13">13°</string>
+    <string name="clouds">Clouds</string>
+    <string name="feels_like_10">Feels like:\n10°</string>
+    <string name="wind_speed_25_km_h">Wend speed:\n25 km/h</string>
+    <string name="humidity_10">humidity\n10</string>
+    <string name="pressure_10">pressure:\n10</string>
+    <string name="temperature_value">%1d°</string>
+    <string name="feels_like_value">Feels like:\n%1d°</string>
+    <string name="wind_speed_value">Wend speed:\n%1d km/h</string>
+    <string name="humidity_value">humidity\n%1d %%</string>
+    <string name="pressure_value">pressure:\n%1d mbar</string>
+    <string name="save">Save</string>
+    <string name="metric">Metric</string>
+    <string name="imperial">Imperial</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
