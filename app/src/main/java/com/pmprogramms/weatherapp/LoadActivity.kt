@@ -1,9 +1,8 @@
 package com.pmprogramms.weatherapp
 
 import android.content.Intent
-import android.content.SharedPreferences
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.pmprogramms.weatherapp.utils.Variables
 
 class LoadActivity : AppCompatActivity() {

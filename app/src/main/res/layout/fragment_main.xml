@@ -6,14 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".view.MainFragment">
 
-    <ImageView
-        android:id="@+id/background"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:contentDescription="@string/background_image"
-        android:src="@drawable/night_sky"
-        android:scaleType="centerCrop"/>
-
     <include
         android:id="@+id/bar"
         layout="@layout/home_bar"
@@ -30,7 +22,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
         android:text="@string/today"
-        android:textColor="@color/white"
         android:textSize="48sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -42,7 +33,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:text="@string/thu_7_oct"
-        android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -54,18 +44,25 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:text="@string/_13"
-        android:textColor="@color/white"
         android:textSize="64sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/date" />
+
+    <ImageView
+        android:id="@+id/icon_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintStart_toEndOf="@id/temperature"
+        app:layout_constraintTop_toBottomOf="@id/date" />
 
     <TextView
         android:id="@+id/short_description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/clouds"
-        android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -88,7 +85,6 @@
         layout="@layout/day_details"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/hourly_weather_data" />

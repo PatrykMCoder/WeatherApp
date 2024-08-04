@@ -1,20 +1,16 @@
 package com.pmprogramms.weatherapp
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.ArrayAdapter
-import android.widget.Button
-import android.widget.EditText
 import android.widget.RadioGroup
+import androidx.appcompat.app.AppCompatActivity
 import com.pmprogramms.weatherapp.databinding.ActivitySetupBinding
 import com.pmprogramms.weatherapp.utils.Variables
 import com.pmprogramms.weatherapp.utils.enums.LanguageEnum
 import com.pmprogramms.weatherapp.utils.enums.UnitEnum
 import com.pmprogramms.weatherapp.utils.json.JsonUtil
-import java.lang.StringBuilder
 
 class SetupActivity : AppCompatActivity(), View.OnClickListener, RadioGroup.OnCheckedChangeListener {
     private lateinit var binding: ActivitySetupBinding

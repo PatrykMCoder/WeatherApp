@@ -14,7 +14,7 @@ class AddLocationDialog : DialogFragment() {
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
         val builder = AlertDialog.Builder(requireContext())
         val view = View.inflate(context, R.layout.add_location_dialog, null)
-        val tv = view.findViewById<EditText>(R.id.example)
+        val tv = view.findViewById<EditText>(R.id.city_edit_text)
         builder.setView(view)
         builder.setPositiveButton(
             "Ok"
